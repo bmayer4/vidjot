@@ -1,0 +1,17 @@
+{{#if success_message}}
+    <div class="alert alert-success col-md-6 mx-auto" id="successMessage">{{success_message}}<span class="float-right" id="cancelSuccess" onclick="document.getElementById('successMessage').style.display='none'">Close</span></div>
+{{/if}}
+
+{{#if error_message}}
+    <div class="alert alert-danger col-md-6 mx-auto">{{error_message}}</div>
+{{/if}}
+
+
+<style>
+
+    #cancelSuccess:hover {
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>

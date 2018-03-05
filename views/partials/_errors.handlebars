@@ -1,0 +1,12 @@
+{{!-- for passport --}}
+{{#if error}}  
+<div class="row">
+    <div class="alert alert-danger col-md-6 mx-auto">{{error}}</div>
+</div>
+{{/if}}
+
+{{#each errors}}
+<div class="row">
+    <div class="alert alert-danger col-md-6 mx-auto">{{text}}</div>
+</div>
+{{/each}}

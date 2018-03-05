@@ -1,0 +1,35 @@
+.navbar-custom {
+    background-color: rgb(7, 206, 241);
+}
+
+.navbar-dark .navbar-nav .nav-link {  
+    color: rgba(255,255,255,.9);
+}
+
+@media (max-width: 576px) {
+
+    .fc {
+        color: rgba(255,255,255,.9);
+    }
+    
+    #nb {
+        background-color: rgb(7, 206, 241);
+        border: none;
+    }
+
+ }
+
+ /* https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
+ /* https://css-tricks.com/multiple-class-id-selectors/ */
+ 
+ /* // Small devices (landscape phones, 576px and up)
+ @media (min-width: 576px) { ... }
+ 
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) { ... }
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) { ... }
+ 
+ // Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) { ... } */
